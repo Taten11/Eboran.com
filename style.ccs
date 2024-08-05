@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-board {
+    display: inline-block;
+    border: 2px solid #000;
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#scoreboard {
+    margin-bottom: 20px;
+}
+
+#reset-button {
+    margin-bottom: 20px;
+}
